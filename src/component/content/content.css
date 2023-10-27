@@ -1,0 +1,86 @@
+.content {
+  background: #202c38;
+  width: 40%;
+  padding: 30px 70px;
+  border-radius: 20px;
+}
+
+.contentDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px dashed #ffffff;
+}
+
+.contentDetails:last-child {
+  border-bottom: none;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+  width: 420px;
+}
+
+.id {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: 10px 16px;
+  margin-right: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: "Segoe-ui";
+}
+
+.title {
+  font-size: 18px;
+  line-height: 20px;
+  color: #ffffff;
+  font-family: "Gilroy-semibold";
+}
+
+.time {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: "Segoe-ui";
+}
+
+.btn2 {
+  width: 164px;
+  height: 56px;
+  background: #202c38;
+  color: #ffffff;
+  text-align: center;
+
+  background: linear-gradient(#202c38, #202c38) padding-box,
+    linear-gradient(90deg, #b25aff 0%, #7a27ca 100%) border-box;
+  border-radius: 8px;
+  border: 3px solid transparent;
+  margin-top: 20px;
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.totalTime {
+  color: #fdfbff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 1312px) {
+  .content {
+    width: 90%;
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .content {
+    width: 85%;
+    margin-top: 50px;
+  }
+}

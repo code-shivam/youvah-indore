@@ -1,0 +1,12 @@
+body {
+  background-color: #15202b;
+  padding: 80px;
+  min-width: 520px;
+}
+
+@media only screen and (max-width: 988px) {
+  body {
+    padding: 10px;
+    padding-top: 50px;
+  }
+}

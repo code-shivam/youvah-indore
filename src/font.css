@@ -1,0 +1,20 @@
+@font-face{
+    font-family: 'Gilroy-semiBold';
+    font-style: normal;
+    src: local('Gilroy-semiBold'), url('../public/fonts/Gilroy-Medium.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'Gilroy-Bold';
+    font-style: normal;
+    src: local('Gilroy-Bold'), url('../public/fonts/Gilroy-Bold.woff') format('woff');
+}
+
+@font-face{
+    font-family: 'Segoe-ui';
+    font-style: normal;
+    src: local('Segoe-ui'), url('../public/fonts/Segoe\ UI.woff') format('woff');
+}
+
+
+

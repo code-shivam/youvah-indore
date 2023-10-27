@@ -1,0 +1,14 @@
+.careerContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 1312px) {
+  .careerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,147 @@
+.headContainer {
+  background: #202c38;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subContainer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 48%;
+}
+
+
+.arrow {
+  padding-bottom: 10px;
+}
+
+.headingarrow {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: baseline;
+}
+
+img {
+  border-radius: 12px;
+}
+
+.heading {
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Gilroy-Bold";
+}
+
+.leftImage {
+  display: block;
+  width: 30%;
+  height: 31vh;
+}
+
+.subHeading {
+  color: #ffffff;
+  font-family: "Gilroy-semiBold";
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.btn1 {
+  width: 250px;
+  background: linear-gradient(90deg, #b25aff 0%, #7a27ca 100%);
+  padding: 12px, 24px, 8px, 24px;
+  border-radius: 8px;
+  font-family: "Gilroy-Bold";
+  color: #ffffff;
+}
+
+.bannerImage {
+  display: none;
+}
+
+@media only screen and (max-width: 1480px) {
+  .heading {
+    font-size: 25px;
+  }
+
+  .subHeading {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .arrow {
+    width: 25px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+
+  .subHeading {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 1272px) {
+  .heading {
+    font-size: 16.5px;
+  }
+
+  .subHeading {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 810px) {
+  .leftImage {
+    display: none;
+  }
+
+  .bannerImage {
+    display: block;
+    width: 100%;
+  }
+
+  .headContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+
+  .subHeading {
+    font-size: 16px;
+  }
+
+  .subContainer {
+    width: 80%;
+  }
+
+  .arrow {
+    width: 35px;
+  }
+}
+
+@media only screen and (max-width: 676px) {
+  .heading {
+    font-size: 22px;
+  }
+
+}
+
+@media only screen and (max-width: 625px) {
+  .heading {
+    font-size: 24px;
+  }
+
+  .subHeading {
+    font-size: 16px;
+  }
+}
