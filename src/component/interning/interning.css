@@ -1,11 +1,9 @@
 .interning {
-  border: 1px solid black;
+  border: 2px solid black;
   margin-top: 20px;
   width: 50%;
   padding: 10px;
 }
-
-
 
 .hesding {
   font-size: 32px;
@@ -35,29 +33,32 @@
 }
 
 @media only screen and (max-width: 1271px) {
-    .interning {
-      width: 80%;
-    }
+  .interning {
+    width: 80%;
   }
-  
-  @media only screen and (max-width: 730px) {
-    .interning {
-      width: 100%;
-      border: none;
-    }
-  
-    .hesding {
-      font-size: 25px;
-    }
+}
+
+@media only screen and (max-width: 730px) {
+  .interning {
+    width: 100%;
+    border: none;
   }
-  
-  @media only screen and (max-width: 597px) {
-    .hesding {
-      font-size: 16px;
-    }
-  
-    .interningimage{
-      width: 120px;
-      height: 10vh;
-    }
+
+  .hesding {
+    font-size: 25px;
   }
+  .interningimage {
+    width: 20%;
+    height: 8vh;
+  }
+}
+
+@media only screen and (max-width: 597px) {
+  .hesding {
+    font-size: 16px;
+  }
+  .interningimage {
+    width: 19%;
+    height: 7vh;
+  }
+}

@@ -15,7 +15,6 @@
   width: 48%;
 }
 
-
 .arrow {
   padding-bottom: 10px;
 }
@@ -133,7 +132,6 @@ img {
   .heading {
     font-size: 22px;
   }
-
 }
 
 @media only screen and (max-width: 625px) {
